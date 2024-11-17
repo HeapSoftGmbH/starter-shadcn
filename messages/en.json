@@ -1,0 +1,9 @@
+{
+	"common": {},
+	"Home": {
+		"metadata": {
+			"pageTitle": "Starter Project",
+			"pageDescription": "This is the description for the homepage of the starter project."
+		}
+	}
+}
