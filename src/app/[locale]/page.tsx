@@ -8,8 +8,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 	const t = await getTranslations({ locale, namespace: 'Home.metadata' });
 
 	return {
-		title: t('title'),
-		description: t('description')
+		title: t('pageTitle'),
+		description: t('pageDescription')
 	};
 }
 
