@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { StoreProvider } from '@/lib/store';
 
-import './globals.css';
+import '../globals.css';
 
 export default async function RootLayout({
 	children,
