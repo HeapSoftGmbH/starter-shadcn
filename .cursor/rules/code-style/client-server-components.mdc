@@ -1,0 +1,9 @@
+---
+description: 
+globs: *.ts,*.tsx
+alwaysApply: false
+---
+
+# Client- and Server-Components
+
+Shared components are saved in the `src/components` folder. They are separated into subfolders, `client` and `server`. Use these to distinguish between Next.js server and client components.

@@ -1,0 +1,9 @@
+---
+description: 
+globs: *.ts,*.tsx
+alwaysApply: false
+---
+
+# Redux Toolkit
+
+We're using redux with redux-toolkit. Shared states should use redux. To create a new slice please add a folder to the `src/lib/store` directory e.g. [index.ts](mdc:src/lib/store/user/index.ts). Re-export state actions from [index.ts](mdc:src/lib/store/index.ts). Add new reducer to `combineReducers` in [store.ts](mdc:src/lib/store/store.ts). To access and update state please use the provided hooks [hooks.ts](mdc:src/lib/store/hooks.ts).

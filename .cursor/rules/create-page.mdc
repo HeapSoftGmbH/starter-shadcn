@@ -1,0 +1,16 @@
+---
+description: Creat new page
+globs: 
+alwaysApply: false
+---
+
+# Create new next.js page
+
+## Translation
+
+New pages should have their own translation object, like the `Home` object in [en.json](mdc:messages/en.json). Also provide the client messages using the `TranslationsProvider` component. It takes namespaces, include the newly created namespace for the page and also always inlcude the `common` namespace.
+
+## Metadata
+
+Pages need page metadata, this includes title and description e.g. [page.tsx](mdc:src/app/[locale]/page.tsx).
+

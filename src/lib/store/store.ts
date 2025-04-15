@@ -1,6 +1,10 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit';
 
-const reducer = combineReducers({});
+import { reducer as userReducer } from './user';
+
+const reducer = combineReducers({
+	user: userReducer
+});
 
 export const makeStore = () => {
 	return configureStore({

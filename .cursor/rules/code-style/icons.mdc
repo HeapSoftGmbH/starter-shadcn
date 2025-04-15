@@ -1,0 +1,9 @@
+---
+description: 
+globs: *.ts,*.tsx
+alwaysApply: false
+---
+
+# Icons
+
+We use `lucide-react` as icon library. Please always import the component with the `Icon` ending e.g. `CircleIcon` or `CheckMarkIcon`. This way it's clear which components are icons.

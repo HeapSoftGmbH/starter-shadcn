@@ -1,0 +1,11 @@
+---
+description: 
+globs: *.ts,*.tsx
+alwaysApply: false
+---
+
+# Lodash
+
+We're using lodash in this project for simpler operations.
+
+[Documentation](mdc:https:/lodash.com/docs/4.17.15)

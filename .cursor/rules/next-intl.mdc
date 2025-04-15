@@ -1,0 +1,17 @@
+---
+description: 
+globs: *.ts,*.tsx
+alwaysApply: false
+---
+
+# Translation using `next-intl`
+
+Translation files are located in the `messages` folder on the root directory. Content is separated into language files. The translations are provided in a nested object structure.
+
+- Supported languages configuration: [languages.ts](mdc:src/i18n/languages.ts)
+- For navigation use the functions exported from: [navigation.ts](mdc:src/i18n/navigation.ts)
+
+[Messages](mdc:https:/next-intl.dev/docs/usage/messages)
+[Numbers](mdc:https:/next-intl.dev/docs/usage/numbers)
+[Date & Time](mdc:https:/next-intl.dev/docs/usage/dates-times)
+[Lists](mdc:https:/next-intl.dev/docs/usage/lists)
