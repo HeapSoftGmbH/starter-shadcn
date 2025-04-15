@@ -1,6 +1,7 @@
+import { hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 
-import { routing } from '@/i18n/routing';
+import { routing } from '@/i18n/navigation';
 import { StoreProvider } from '@/lib/store';
 
 import '../globals.css';
@@ -14,7 +15,7 @@ export default async function RootLayout({
 }>) {
 	const { locale } = await params;
 
-	if (!routing.locales.includes(locale)) {
+	if (!hasLocale(routing.locales, locale)) {
 		notFound();
 	}
 
